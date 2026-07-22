@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Harshita Singla</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-slate-50">
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <nav class="max-w-7x1 mx-auto flex justify-between items-center px-6 py-4">
+            <!-- logo -->
+            <a href="index.html" class="text-2x1 font-bold text-blue-600">Harshita</a>
+
+            <!-- Desktop menu -->
+            <ul class="hidden md:flex gap-8 font-medium">
+                <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+                <li><a href="about.html" class="hover:text-blue-600">About</a></li>
+                <li><a href="skills.html" class="hover:text-blue-600">Skills</a></li>
+                <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+                <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+            </ul>
+
+            <!-- Mobile menu button -->
+            <button id="menu-btn" class="md:hidden text-2x1">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-6 pb-5">
+            <a href="index.html" class="block py-2">Home</a>
+            <a href="about.html" class="block py-2">About</a>
+            <a href="skills.html" class="block py-2">Skills</a>
+            <a href="projects.html" class="block py-2">Projects</a>
+            <a href="contact.html" class="block py-2">Contact</a>
+        </div>
+    </header>
+
+    <!-- Heading -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center text-slate-800">Contact Me</h1>
+            <p class="text-center text-gray-500 mt-3">Feel free to get in touch. I'd love to hear from you!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="pb-20">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
+            <!-- Contact Information -->
+            <div class="bg-white shadow-lg rounded-xl p-8">
+                <h2 class="text-2xl font-bold mb-6">
+                    Let's Connect
+                </h2>
+                <p class="text-gray-600 leading-7">
+                    Whether you have a project idea, internship opportunity, or simply want to connect, feel free to
+                    reach out.
+                </p>
+                <div class="mt-8 space-y-6">
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-envelope text-2xl text-blue-600"></i>
+                        <div>
+                            <h3 class="font-semibold">Email</h3>
+                            <p class="text-gray-600">harshitasingla123@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-phone text-2xl text-green-600"></i>
+                        <div>
+                            <h3 class="font-semibold">Phone</h3>
+                            <p class="text-gray-600">+91 8882958826</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-location-dot text-2xl text-red-600"></i>
+                        <div>
+                            <h3 class="font-semibold">Location</h3>
+                            <p class="text-gray-600">New Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="mt-10">
+                    <h3 class="text-xl font-semibold mb-4">Follow Me</h3>
+                    <div class="flex gap-5 text-3xl">
+                        <a href="https://www.linkedin.com/in/harshita-singla-349502419/" class="hover:text-blue-600"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/HarshitaSingla2782" class="hover:text-gray-800"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bg-white shadow-lg rounded-xl p-8">
+                <h2 class="text-2xl font-bold mb-6">Send a Message</h2>
+                <form>
+                    <div class="mb-5">
+                        <label class="block mb-2 font-medium">Full Name</label>
+                        <input type="text" placeholder="Enter your name"
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div class="mb-5">
+                        <label class="block mb-2 font-medium">Email Address</label>
+                        <input type="email" placeholder="Enter your email"
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div class="mb-5">
+                        <label class="block mb-2 font-medium">Subject</label>
+                        <input type="text" placeholder="Subject"
+                            class="w-full border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div class="mb-5">
+                        <label class="block mb-2 font-medium">Message</label>
+                        <textarea rows="6" placeholder="Write your message..."
+                            class="w-full border rounded-lg px-4 py-3 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition"><i
+                            class="fa-solid fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white text-center py-6">
+        <p>&copy; 2026 Harshita Singla | All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Harshita Singla</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-slate-50">
+
+    <!-- navbar -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <nav class="max-w-7x1 mx-auto flex justify-between items-center px-6 py-4">
+            <!-- logo -->
+            <a href="index.html" class="text-2x1 font-bold text-blue-600">Harshita</a>
+
+            <!-- Desktop menu -->
+            <ul class="hidden md:flex gap-8 font-medium">
+                <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+                <li><a href="about.html" class="hover:text-blue-600">About</a></li>
+                <li><a href="skills.html" class="hover:text-blue-600">Skills</a></li>
+                <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+                <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+            </ul>
+
+            <!-- Mobile menu button -->
+            <button id="menu-btn" class="md:hidden text-2x1">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-6 pb-5">
+            <a href="index.html" class="block py-2">Home</a>
+            <a href="about.html" class="block py-2">About</a>
+            <a href="skills.html" class="block py-2">Skills</a>
+            <a href="projects.html" class="block py-2">Projects</a>
+            <a href="contact.html" class="block py-2">Contact</a>
+        </div>
+    </header>
+
+    <!-- Heading -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center text-slate-800">My Skills</h1>
+
+            <p class="text-center text-gray-500 mt-3">
+                Technologies and tools I use while learning web development.
+            </p>
+
+            <!-- Skill Cards -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
+                <!-- Frontend -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <div class="text-center">
+                        <i class="fa-solid fa-code text-5xl text-blue-600"></i>
+                        <h2 class="text-2xl font-semibold mt-4">Frontend</h2>
+                    </div>
+                    <ul class="mt-6 space-y-3 text-gray-700">
+                        <li>✔ HTML5</li>
+                        <li>✔ CSS3</li>
+                        <li>✔ Tailwind CSS</li>
+                        <li>✔ JavaScript</li>
+                    </ul>
+                </div>
+
+                <!-- Backend -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <div class="text-center">
+                        <i class="fa-solid fa-server text-5xl text-green-600"></i>
+                        <h2 class="text-2xl font-semibold mt-4">Backend</h2>
+                    </div>
+                    <ul class="mt-6 space-y-3 text-gray-700">
+                        <li>✔ Node.js</li>
+                        <li>✔ Express.js</li>
+                    </ul>
+                </div>
+
+                <!-- Database -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <div class="text-center">
+                        <i class="fa-solid fa-database text-5xl text-orange-500"></i>
+                        <h2 class="text-2xl font-semibold mt-4">Database</h2>
+                    </div>
+                    <ul class="mt-6 space-y-3 text-gray-700">
+                        <li>✔ MongoDB</li>
+                    </ul>
+                </div>
+
+                <!-- Tools -->
+                <div
+                    class="bg-white rounded-xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+                    <div class="text-center">
+                        <i class="fa-solid fa-screwdriver-wrench text-5xl text-purple-600"></i>
+                        <h2 class="text-2xl font-semibold mt-4">Tools</h2>
+                    </div>
+                    <ul class="mt-6 space-y-3 text-gray-700">
+                        <li>✔ Git</li>
+                        <li>✔ GitHub</li>
+                        <li>✔ VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Progress -->
+    <section class="pb-16">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-10">Skill Proficiency</h2>
+            <!-- HTML -->
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-blue-600 h-3 rounded-full" style="width:90%"></div>
+                </div>
+            </div>
+
+            <!-- CSS -->
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span>CSS</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-blue-600 h-3 rounded-full" style="width:70%"></div>
+                </div>
+            </div>
+
+            <!-- Tailwind -->
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span>Tailwind CSS</span>
+                    <span>10%</span>
+                </div>
+
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-blue-600 h-3 rounded-full" style="width:10%"></div>
+                </div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                    <span>JavaScript</span>
+                    <span>2%</span>
+                </div>
+
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-blue-600 h-3 rounded-full" style="width:2%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white text-center py-6">
+        <p>&copy; 2026 Harshita Singla | All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
